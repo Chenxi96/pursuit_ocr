@@ -7,6 +7,7 @@
   justify-content: center;
   height: 376px;
   position: relative;
+  text-align: center;
 }
 
 #home1::before, #home2::before, #home3::before {
@@ -34,4 +35,8 @@
 section button {
   width: 790px;
   background: linear-gradient(to right, #CC6699 30%, #FBAB28);
+}
+
+p {
+  width: 790px;
 }
