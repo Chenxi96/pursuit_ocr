@@ -51,31 +51,37 @@ const Header = () => {
                     <li className="nav-item">
                         <a href="#" className="nav-link">
                         Waiver
+                        {/* <span className="nav-underline"></span> */}
                         </a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link">
                         FAQ
+                        {/* <span className="nav-underline"></span> */}
                         </a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link">
                         Tickets
+                        {/* <span className="nav-underline"></span> */}
                         </a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link">
                         Team Building
+                        {/* <span className="nav-underline"></span> */}
                         </a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link">
                         Our Space
+                        {/* <span className="nav-underline"></span> */}
                         </a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link">
                         Contact
+                        {/* <span className="nav-underline"></span> */}
                         </a>
                     </li>
                 </ul>

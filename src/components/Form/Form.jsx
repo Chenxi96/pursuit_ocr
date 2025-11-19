@@ -5,7 +5,9 @@ const Form = () => {
         <section id="form-container">
             <section id="form-wrapper">
                 <section id="info-container">
-                    <h2>Hours</h2>
+                    <div className='form-heading'>
+                        <h2>Hours</h2>
+                    </div>
                     <p>Monday: 2pm to 9:30pm</p>
                     <p>Tuesday: 2pm to 9:30pm</p>
                     <p>Wednesday: 2pm to 9:30pm</p>
@@ -18,15 +20,15 @@ const Form = () => {
 
                 <form>
                     <div className='form-heading'>
-                        <h2>Say Hello!</h2>
+                        <h2 id='heading-1'>Say Hello!</h2>
                     </div>
                     <div>
-                            <input type="text" placeholder="Your Name" />
+                            <input type="text" placeholder="Name" />
                     </div>
                     <div>
-                            <input type="text" placeholder="Your Email" />
+                            <input type="text" placeholder="Email" />
                     </div>
-                    <textarea id='message' placeholder="Your Message" name='message'></textarea>
+                    <textarea id='message' placeholder="Message" name='message'></textarea>
                     <div>
                         <button type="button">Contact us</button>
                     </div>
