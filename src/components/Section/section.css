@@ -6,6 +6,7 @@
     grid-template-columns: 1fr 1fr;
     background-color: #FFFFFF;
     color: black;
+    justify-items: center;
 }
 
 .info-container::before {
