@@ -7,8 +7,11 @@
 }
 
 #banner-heading {
-    display: inline;
+    display: flex;
     position: relative;
-    top: 50%;
-    left: calc(50% - 28px);
+    font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+    top: calc(50% - 28px);
+    left: calc(50% - 140px);
+    font-size: 40px;
+    font-weight: 700;
 }
