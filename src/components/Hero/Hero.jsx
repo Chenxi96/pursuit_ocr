@@ -8,7 +8,7 @@ const Hero = () => {
             <div id="hero-content">
                 <h1 id="heading">30,000 SQFT</h1>
                 <p id="text">OF AWESOME</p>
-                <button id="submitBtn" type="submit">BOOK NOW</button>
+                <button id="submitBtn">BOOK NOW</button>
             </div>
         </section>
     );
