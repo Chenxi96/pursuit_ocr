@@ -1,4 +1,5 @@
 import './Header.css'
+import { NavLink } from 'react-router';
 
 const Header = () => {
     return (
@@ -43,46 +44,46 @@ const Header = () => {
                     </a>
                     <ul className="nav-menu">
                         <li className="nav-item">
-                            <a href="/" className="nav-link active">
+                            <NavLink to="/" className="nav-link">
                             Home
                             <span className="nav-underline"></span>
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="https://mono.wherewolf.co.nz/73z6u5" className="nav-link">
+                            <NavLink to="https://mono.wherewolf.co.nz/73z6u5" className="nav-link">
                             Waiver
                             <span className="nav-underline"></span>
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="https://pursuitocr.com/faq/" className="nav-link">
+                            <NavLink to="https://pursuitocr.com/faq/" className="nav-link">
                             FAQ
                             <span className="nav-underline"></span>
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="https://feverup.com/m/485979?utm_source=landing&utm_medium=partner&utm_campaign=485979_yyz&utm_term=46416" className="nav-link">
+                            <NavLink to="https://feverup.com/m/485979?utm_source=landing&utm_medium=partner&utm_campaign=485979_yyz&utm_term=46416" className="nav-link">
                             Tickets
                             <span className="nav-underline"></span>
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="https://pursuitocr.com/corporate-wellness-team-building/" className="nav-link">
+                            <NavLink to="https://pursuitocr.com/corporate-wellness-team-building/" className="nav-link">
                             Team Building
                             <span className="nav-underline"></span>
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="/ourSpace" className="nav-link">
+                            <NavLink to="/ourSpace" className="nav-link">
                             Our Space
                             <span className="nav-underline"></span>
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="https://pursuitocr.com/contact/" className="nav-link">
+                            <NavLink to="https://pursuitocr.com/contact/" className="nav-link">
                             Contact
                             <span className="nav-underline"></span>
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                 </div>

@@ -9,14 +9,12 @@ import { BrowserRouter, Routes, Route } from "react-router";
 const Layout = () => {
   return (
     <>
-      <Header />
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
           <Route path='/ourSpace' element={<OurSpace />} />
         </Routes>
       </BrowserRouter>
-      <Footer />
     </>
 
   )

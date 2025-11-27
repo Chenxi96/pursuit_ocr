@@ -2,10 +2,13 @@ import './Home.css'
 import Banner from '../Banner/Banner.jsx'
 import Hero from '../Hero/Hero.jsx'
 import Form from '../Form/Form.jsx';
+import Header from '../Header/Header.jsx'
+import Footer from '../Footer/Footer.jsx'
 
 const Home = () => {
   return (
     <>
+      <Header />
       <Hero />
       <section id='home1'>
         <h2>Book Your Visit!</h2>
@@ -26,6 +29,7 @@ const Home = () => {
       </section>
       <Banner image={"/Background_banner.svg"} style={"background-size: contain; background-repeat: no-repeat"}/>
       <Form />
+      <Footer />
     </> 
   )
 }
