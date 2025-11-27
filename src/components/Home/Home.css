@@ -35,6 +35,7 @@
 section button {
   width: 790px;
   background: linear-gradient(to right, #CC6699 30%, #FBAB28);
+  transition: 0.2s;
 }
 
 p {
