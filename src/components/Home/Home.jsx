@@ -29,7 +29,7 @@ const Home = () => {
       </section>
       <section>
         <video width="1200" height="600" controls>
-          <source src='pursuit_training.mp4' type='video/mp4' />
+          <source src='PursuitOCR_GeneralOverview.mp4' type='video/mp4' />
         Your browser does not support the video tag.
         </video>
       </section>
