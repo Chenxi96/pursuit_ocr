@@ -1,5 +1,24 @@
-.header {
+.header, .header_zone {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    padding: 10px;
+}
+
+.header_zone {
+    font-size: 25px;
+    border-bottom: 3px solid #CC6699;
+}
+
+.description_zone {
+    margin-top: -5px;
 }
