@@ -16,21 +16,21 @@ const OurSpace = () => {
                     <p className="description_zone">Hover and click to learn more about the exciting zones at Pursuit ORC!</p>
                 </div>
                 <Map />
-                <Banner image={"/background2.svg"} />
+                <Banner image={"/background2.svg"} title={"/TrikeTrackLogo.svg"}/>
                 <Section 
                     link={"track-id"}
                     description={"Get ready to unleash your inner racer on Pursuit OCR’s epic drift tricycle track — a wild, pedal-powered ride that feels straight out of Mario Kart! This massive indoor course stretches the length of three football fields, winding and twisting beneath the obstacle course above. You’ll be drifting around corners, racing your friends, and laughing nonstop as you battle for bragging rights. It’s fast, chaotic, and totally unforgettable — the ultimate grown-up playground experience."} 
                     points={["Drift around corners like a pro no license required!","Battle your friends for the ultimate bragging rights!", "Feels like real-life Mario Kart minus the banana peels!"]}
                     image={"/theTrack_image.svg"}
                 />
-                <Banner image={"/Background.svg"}/>
+                <Banner image={"/Background.svg"} title={"/BallPitLogo.svg"}/>
                 <Section 
                     link={"ball-id"}
                     description={"The ball pit at Pursuit OCR is no ordinary playground feature — it’s a massive, four-and-a-half-foot-deep sea of over 100,000 balls that feels more like an endurance challenge than a casual dip. The moment you jump in, you’re swallowed by colourful chaos, struggling to stay afloat as you push through the shifting layers. Now, with dynamic projection-mapped targets floating across the walls, the challenge gets even wilder. Visitors can aim and “shoot” at the moving targets from inside the pit, turning the struggle to stay upright into a full-on interactive game. It’s fun, frantic, and just the right amount of disorienting — and getting out is still the hardest part."}
                     points={["You might lose your shoes, but you’ll gain an epic story", "A hilarious mix of aiming, sinking, and scrambling", "Interactive targets transform the pit into a chaotic (and unforgettable) workout"]}
                     image={"/ballPit_image.svg"}
                 />
-                <Banner image={"/ourSpace_banner.svg"} />
+                <Banner image={"/ourSpace_banner.svg"} title={"/Asset_1.svg"}/>
                 <Section 
                     link={"lava-id"}
                     description={"The Floor Is Lava at Pursuit OCR turns the ground beneath your feet into a glowing, ever-shifting adventure. With fiery lava flowing across the floor and stone “islands” projected in real time, it feels like stepping into a living video game. The challenge is simple—but far from easy: hop from rock to rock as the path lights up, guiding you across the space while keeping you safely above the “lava.” Each jump tests your balance, timing, and courage, all while the vibrant projection mapping pulls you deeper into the illusion. "}
