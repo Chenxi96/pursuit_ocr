@@ -19,13 +19,15 @@
 #floorLava-section,
 #ballpit-section,
 #track-section {
-    display: none;
+    position: absolute;
+    transition: left 1s;
 }
 
 .map-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .map-wrapper {
