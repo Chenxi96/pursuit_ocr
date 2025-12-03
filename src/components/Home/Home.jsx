@@ -28,7 +28,7 @@ const Home = () => {
         <button>Our Space</button>
       </section>
       <section>
-        <video width="1600" height="800" controls>
+        <video width="1200" height="600" controls>
           <source src='pursuit_training.mp4' type='video/mp4' />
         Your browser does not support the video tag.
         </video>
