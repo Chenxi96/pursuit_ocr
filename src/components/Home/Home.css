@@ -45,3 +45,7 @@ p {
 section button:hover {
   background: linear-gradient(135deg, #23aadd 30%, #37ce9d 100%);
 }
+
+video {
+  padding: 160px;
+}

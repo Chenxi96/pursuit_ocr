@@ -27,6 +27,12 @@ const Home = () => {
         <p>Pursuit OCR has a lot to offer! Wanna dive into the biggest ball pit in Canada? Race against your friends Mario Cart style? We’ve got it all! Check out our Zones and plan your visit for maximum fun!</p>
         <button>Our Space</button>
       </section>
+      <section>
+        <video width="1600" height="800" controls>
+          <source src='pursuit_training.mp4' type='video/mp4' />
+        Your browser does not support the video tag.
+        </video>
+      </section>
       <Banner image={"/Background_banner.svg"} style={"background-size: contain; background-repeat: no-repeat"}/>
       <Form />
       <Footer />
