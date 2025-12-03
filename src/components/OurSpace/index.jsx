@@ -11,6 +11,10 @@ const OurSpace = () => {
             <Header />
             <main>
                 <h2 className="header">Our Space</h2>
+                <div className="container">
+                    <h3 className="header_zone">The Zones</h3>
+                    <p className="description_zone">Hover and click to learn more about the exciting zones at Pursuit ORC!</p>
+                </div>
                 <Map />
                 <Banner image={"/background2.svg"} />
                 <Section 
