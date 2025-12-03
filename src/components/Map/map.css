@@ -1,0 +1,145 @@
+
+
+#map_section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #07030A;
+}
+
+#map-container {
+    width: 737px;
+    height: 755px;
+    background-image: url(/interactive_map/Boundaries.svg), url(/interactive_map/Path.svg) ,url(/interactive_map/Asset\ 80\ 1.svg);
+    background-size: contain, contain, contain ;
+    background-position: center, center, center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    position: relative
+}
+
+#floorLava-section,
+#ballpit-section,
+#track-section {
+    display: none;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-wrapper {
+    width: 90%;
+    background-color: #2C1E36;
+    padding-bottom: 65px;
+}
+
+.map-description {
+    margin: 0 50px 50px;
+}
+
+.map-description > p {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+
+.map-heading {
+    width: min-content;
+    margin: 25px 0 25px 56px;
+}
+
+.map-description > ul > li {
+    list-style: inside;
+    font-size: 24px;
+}
+
+.map-link {
+    margin-left: 50px;
+    font-size: 26px;
+    color: #FFFF;
+
+}
+
+#dance-floor {
+    position: absolute;
+    top: 553px;
+    left: 37px;
+}
+
+#party-deck {
+    position: absolute;
+    top: 524px;
+    left: 338px;
+}
+
+#floor-lava {
+    position: absolute;
+    top: 418px;
+    left: 465px;
+}
+
+#tag-zone {
+    position: absolute;
+    top: 347px;
+    left: 463px;
+}
+
+#ball-pit {
+    position: absolute;
+    top: 434px;
+    left: 256px;
+    z-index: 888;
+}
+
+#pole-sliding {
+    position: absolute;
+    top: 396px;
+    left: 192px;
+    z-index: 888;
+}
+
+#ninja-warrior {
+    position: absolute;
+    top: 397px;
+    left: 51px;
+    z-index: 888;
+}
+
+#cove-wall {
+    position: absolute;
+    top: 140px;
+    left: 449px;
+}
+
+#axe-throw {
+    position: absolute;
+    top: 35px;
+    left: 535px;
+}
+
+#ninja-path {
+    position: absolute;
+    top: 58px;
+    left: 8px;
+}
+
+#cave-wall {
+    position: absolute;
+    top: 116px;
+    left: 278px;
+    z-index: 888;
+}
+
+#track {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+/* a:hover {
+    z-index: 999;
+    border: 1px solid yellow;
+    transform: scale(1.5);
+} */
+

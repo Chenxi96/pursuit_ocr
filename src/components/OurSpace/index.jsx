@@ -2,6 +2,7 @@ import Banner from "../Banner/Banner";
 import Section from "../Section/Section";
 import Header from '../Header/Header.jsx'
 import Footer from '../Footer/Footer.jsx'
+import Map from '../Map/Map.jsx';
 import './index.css';
 
 const OurSpace = () => {
@@ -10,6 +11,7 @@ const OurSpace = () => {
             <Header />
             <main>
                 <h2 className="header">Our Space</h2>
+                <Map />
                 <Banner title={"The Track"} image={"/background2.svg"} />
                 <Section 
                     description={"Get ready to unleash your inner racer on Pursuit OCR’s epic drift tricycle track — a wild, pedal-powered ride that feels straight out of Mario Kart! This massive indoor course stretches the length of three football fields, winding and twisting beneath the obstacle course above. You’ll be drifting around corners, racing your friends, and laughing nonstop as you battle for bragging rights. It’s fast, chaotic, and totally unforgettable — the ultimate grown-up playground experience."} 
