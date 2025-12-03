@@ -1,8 +1,8 @@
 import './section.css';
 
-const Section = ({description, points, image}) => {
+const Section = ({link, description, points, image}) => {
     return(
-        <section className="info-container">
+        <section id={link} className="info-container">
             <div className='section-description'>
                 <p>{description}</p>
                 <ul>
