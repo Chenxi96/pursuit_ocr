@@ -23,7 +23,7 @@ const Map = () => {
                             <li>Twisty, fast corners!</li>
                         </ul>
                     </div>
-                    <a className='map-link' href="#">Learn More →</a>
+                    <a className='map-link' href="#track-id">Learn More →</a>
                 </section>
                 <section id='ballpit-section' className='map-wrapper' style={{display: isHoveredBallPit ? 'block' : 'none'}}>
                     <h2 className='map-heading'>
@@ -37,7 +37,7 @@ const Map = () => {
                             <li>A wild, full-body challenge you won’t forget</li>
                         </ul>
                     </div>
-                    <a className='map-link' href="#">Learn More →</a>
+                    <a className='map-link' href="#ball-id">Learn More →</a>
                 </section>
                 <section id='floorLava-section' className='map-wrapper' style={{display: isHoveredLava ? 'block' : 'none'}}>
                     <h2 className='map-heading'>
@@ -51,12 +51,16 @@ const Map = () => {
                             <li>A vibrant, must-capture moment for all ages</li>
                         </ul>
                     </div>
-                    <a className='map-link' href="#">Learn More →</a>
+                    <a className='map-link' href="#lava-id">Learn More →</a>
                 </section>
             </section>
             <section id="map-container">
 
-                <img id='ball-pit' className='zone' src="/interactive_map/Ball Pit 1.svg" alt="" onMouseEnter={() => setIsHoveredBallPit(true)} onMouseLeave={() => setIsHoveredBallPit(false)}/>
+                <img id='ball-pit' className='zone' src="/interactive_map/Ball Pit 1.svg" alt="" onMouseEnter={() => {
+                    setIsHoveredBallPit(true)
+                    setIsHoveredLava(false)
+                    setIsHoveredTrack(false)
+                }} />
 
                 <img id='cave-wall' className='zone' src="/interactive_map/Cave 1.svg" alt="" />
 
@@ -64,7 +68,11 @@ const Map = () => {
                 <img id='cove-wall' className='zone' src="/interactive_map/Cove 1.svg" alt="" />
 
 
-                <img id='floor-lava' className='zone' src="/interactive_map/Lava 1.svg" alt="" onMouseEnter={() => setIsHoveredLava(true)} onMouseLeave={() => setIsHoveredLava(false)} />
+                <img id='floor-lava' className='zone' src="/interactive_map/Lava 1.svg" alt="" onMouseEnter={() => {
+                    setIsHoveredLava(true)
+                    setIsHoveredTrack(false)
+                    setIsHoveredBallPit(false)
+                }}  />
 
                 <img id='ninja-path' className='zone' src="/interactive_map/Ninja  Path 1.svg" alt="" />
 
@@ -72,7 +80,11 @@ const Map = () => {
                 <img id='party-deck' className='zone' src="/interactive_map/Party Deck 1.svg" alt="" />
 
 
-                <img id='track' className='zone' src="/interactive_map/Track 1.svg" alt="" onMouseEnter={() => setIsHoveredTrack(true)} onMouseLeave={() => setIsHoveredTrack(false)} />
+                <img id='track' className='zone' src="/interactive_map/Track 1.svg" alt="" onMouseEnter={() => {
+                    setIsHoveredTrack(true)
+                    setIsHoveredLava(false)
+                    setIsHoveredBallPit(false)
+                }}  />
 
                 <img id='ninja-warrior' className='zone' src="/interactive_map/Warrior 1.svg" alt="" />
 
