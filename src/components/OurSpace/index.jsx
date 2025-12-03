@@ -28,10 +28,10 @@ const OurSpace = () => {
                 />
                 <Banner title={"The Cove Wall"} image={"/ourSpace_banner.svg"} />
                 <Section 
-                    link={"wall-id"}
+                    link={"lava-id"}
                     description={"The Floor Is Lava at Pursuit OCR turns the ground beneath your feet into a glowing, ever-shifting adventure. With fiery lava flowing across the floor and stone “islands” projected in real time, it feels like stepping into a living video game. The challenge is simple—but far from easy: hop from rock to rock as the path lights up, guiding you across the space while keeping you safely above the “lava.” Each jump tests your balance, timing, and courage, all while the vibrant projection mapping pulls you deeper into the illusion. "}
                     points={["Immersive projection mapping makes the whole floor come alive", "A playful test of balance, agility, and quick decision-making", "Perfect for energetic visitors—and a must-capture moment for your camera"]}
-                    image={"/theCove_image.svg"}
+                    image={"/floorLava_image.svg"}
                 />
                 {/* <Banner title={"The Axe Throw"} image={"/ourSpace_banner.svg"} />
                 <Section 
