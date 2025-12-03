@@ -11,7 +11,7 @@ const Map = () => {
     return(
         <section id="map_section-container">
             <section className='map-container'>
-                <section id='track-section' className='map-wrapper' style={{display: isHoveredTrack ? 'block' : 'none'}}>
+                <section id='track-section' className='map-wrapper' style={{left: isHoveredTrack ? '50px' : '-13000px'}}>
                     <h2 className='map-heading'>
                         <img src="/interactive_map/TrikeTrackLogo 1.svg" alt="" />
                     </h2>
@@ -25,7 +25,7 @@ const Map = () => {
                     </div>
                     <a className='map-link' href="#track-id">Learn More →</a>
                 </section>
-                <section id='ballpit-section' className='map-wrapper' style={{display: isHoveredBallPit ? 'block' : 'none'}}>
+                <section id='ballpit-section' className='map-wrapper' style={{left: isHoveredBallPit ? '50px' : '-13000px'}}>
                     <h2 className='map-heading'>
                         <img src="/interactive_map/BallPitLogo.svg" alt="" />
                     </h2>
@@ -39,7 +39,7 @@ const Map = () => {
                     </div>
                     <a className='map-link' href="#ball-id">Learn More →</a>
                 </section>
-                <section id='floorLava-section' className='map-wrapper' style={{display: isHoveredLava ? 'block' : 'none'}}>
+                <section id='floorLava-section' className='map-wrapper' style={{left: isHoveredLava ? '50px' : '-13000px'}}>
                     <h2 className='map-heading'>
                         <img src="/interactive_map/FloorIsLavaLogo.svg" alt="" />
                     </h2>
