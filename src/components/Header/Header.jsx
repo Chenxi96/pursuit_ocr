@@ -75,7 +75,7 @@ const Header = () => {
                         </li>
                         <li className="nav-item">
                             <NavLink to="/ourSpace" className="nav-link">
-                            The Zone
+                            The Zones
                             <span className="nav-underline"></span>
                             </NavLink>
                         </li>

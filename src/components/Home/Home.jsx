@@ -26,7 +26,7 @@ const Home = () => {
         <h2>The Zones</h2>
         <p className='home-p'>Pursuit OCR has a lot to offer! Wanna dive into the biggest ball pit in Canada? Race against your friends Mario Cart style? We’ve got it all! Check out our Zones and plan your visit for maximum fun!</p>
         <a href="Ourspace">
-          <button>Our Space</button>
+          <button>The Zones</button>
         </a>
       </section>
       <section>
