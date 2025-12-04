@@ -23,6 +23,21 @@
     transition: left 1s;
 }
 
+img {
+    transition: transform 1s;
+}
+
+#initial-page {
+    position: absolute;
+    height: 445px;
+    padding-top: 25px;
+    transition: left 1s;
+    background-image: url(/interactive_map/initial_page.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
 .map-container {
     display: flex;
     justify-content: center;
@@ -47,8 +62,10 @@
 
 
 .map-heading {
-    width: min-content;
-    margin: 25px 0 25px 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 25px 25px 25px 56px;
 }
 
 .map-description > ul > li {
@@ -79,6 +96,7 @@
     position: absolute;
     top: 418px;
     left: 465px;
+    transition: top 1s, left 1s, background-color 1s;
 }
 
 #tag-zone {
@@ -92,6 +110,7 @@
     top: 434px;
     left: 256px;
     z-index: 888;
+    transition: top 1s, left 1s, background-color 1s;
 }
 
 #pole-sliding {
@@ -137,11 +156,44 @@
     position: absolute;
     top: 5px;
     left: 5px;
+    transition: all 1s;
 }
 
-/* a:hover {
+#track:hover {
+    background-color: #07030a80;
+    width: 100%;
     z-index: 999;
-    border: 1px solid yellow;
-    transform: scale(1.5);
-} */
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: top 1s, left 1s, background-color 1s;
+    img {
+        transform: scale(1) translate(25%, 40%);
+    }
+}
 
+#ball-pit:hover  {
+    background-color: #07030a80;
+    width: 100%;
+    z-index: 999;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: top 1s, left 1s, background-color 1s;
+    img {
+        transform: scale(2) translate(90%, 150%);
+    }
+}
+
+#floor-lava:hover {
+    background-color: #07030a80;
+    width: 100%;
+    z-index: 999;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: top 1s, left 1s, background-color 1s;
+    img {
+        transform: scale(1.5) translate(120%, 150%);
+    }
+}
